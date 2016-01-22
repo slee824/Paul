@@ -1,7 +1,7 @@
 <?php
-$field_name = $_POST['name'];
-$field_email = $_POST['email'];
-$field_message = $_POST['message'];
+$field_name = $_POST["name"];
+$field_email = $_POST["email"];
+$field_message = $_POST["message"];
 
 $mail_to = slee824@emory.edu;
 $subject = 'Message from your website visitor: '.$field_name;
